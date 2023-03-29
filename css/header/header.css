@@ -2,3 +2,6 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+body > header{
+    margin-bottom: 100px;
+}

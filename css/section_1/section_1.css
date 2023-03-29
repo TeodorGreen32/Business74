@@ -1,0 +1,53 @@
+.h1 {
+  font-size: calc(3.625rem + 4.5vw);
+  font-family: 'Russo One';
+}
+
+.section_1 {
+  background-image: url("/imges/section_1/Chart lines.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+.section1-flex {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.linesMD {
+  background: none;
+}
+
+body > header > div > div > div.col-5 > nav > button {
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .section_1 {
+    background: none;
+  }
+  .section1-flex {
+    flex-direction: column !important;
+  }
+  .linesMD {
+    background-image: url("/imges/section_1/Chart lines.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    min-height: 450px;
+  }
+  .btnReg {
+    width: 100%;
+  }
+  img[class=lines] {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .h1 {
+    font-size: calc(1.625rem + 4.5vw);
+  }
+}

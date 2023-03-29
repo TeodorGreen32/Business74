@@ -7,58 +7,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+  
       <header class="p-3 bg-transporent text-white">
          <div class="container">
             <div class="row">
-              <div class="col-8 logo d-flex align-items-center">
+              <div class="col-7 logo d-flex align-items-center">
                 <img src="imges/header/logo.svg" alt="">
               </div>
-              <div class="col-4">
-                <div class="row">
-
-                  <nav class="navbar navbar-expand-lg navbar-dark bg-transporent">
+              <div class="col-5">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transporent>
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">О мероприятие </a>
-                        <a class="nav-item nav-link" href="#">Спикеры</a>
-                        <a class="nav-item nav-link" href="#">Программа</a>
-                        <a class="nav-item nav-link" href="#">Регестрация</a>
+                        <a class="nav-link active" aria-current="page" href="#">О мероприятие</a>
+                        <a class="nav-link" href="#">Спикеры</a>
+                        <a class="nav-link" href="#">Программа</a>
+                        <a class="nav-link" href="#">Регестрация</a>
+                        
                       </div>
                     </div>
-                  </nav>
-                </div>
+                   
+                  </div>
+                </nav>
               </div>
             </div>
          </div>
       </header> 
+      
+
+      
       <main>
         <section class="section_1">
             <div class="container">
-              <div class="row">
+              <div class="row section1-flex">
                 <div class="col">
-                  <div class="row text-white"><h2>Конференция</h2></div>
-                  <div class="row"><h1 class="main-theme">Бизнес74</h1></div>
-                  <div class="row">
-                    <div class="str d-flex align-items-center gap-2">
-                      <img src="./imges/section_1/Calendar.svg" alt="">
-                      <div class="text-white">19 мая в 11:30</div>
+                  <div class="row gap-4">
+                    <div class="row gap-4">
+                      <div class="row">
+                        <div class="row h2 text-white"><h2>Конференция</h2></div>
+                        <div class="row"><h1 class="h1 display-1 main-theme">«Бизнес74»</h1></div>
+                      </div>
+                      <div class="row">
+                        <div class="row">
+                          <div class="str fs-3 d-flex align-items-center gap-2">
+                            <img src="./imges/section_1/Calendar.svg" alt="">
+                            <div class="text-white">19 мая в 11:30</div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="str fs-3 d-flex align-items-center gap-2">
+                            <img src="./imges/section_1/metka.svg" alt="">
+                            <div class="text-white">Гранд-отель «Видгоф» <span class="text-secondary">(зал «Магнат»)</span> </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="str d-flex align-items-center gap-2">
-                      <img src="./imges/section_1/metka.svg" alt="">
-                      <div class="text-white">Гранд-отель «Видгоф»(зал «Магнат»)</div>
+                    <div class="row">
+                      <button class="btnReg" >Регистрация</button>
                     </div>
-                  </div>
-                  <div class="row">
-                    <button class="btnReg" >Регистрация</button>
                   </div>
                 </div>
                 <div class="col">
-
+                  <div class="row d-flex align-items-center justify-content-end linesMD">
+                    <!-- <img class="lines" src="./imges/section_1/Chart lines.svg" alt=""> -->
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -74,15 +97,17 @@
 
 
 <!-- Connected lib -->
-<!-- <script
+<script
   src="https://code.jquery.com/jquery-3.6.4.js"
   integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
   crossorigin="anonymous">
-</script> -->
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 <!-- Connect your css/js files -->
 <link rel="stylesheet" href="./css/header/header.css">
 <link rel="stylesheet" href="./css/main.css">
 <link rel="stylesheet" href="./css/elements.css">
+<link rel="stylesheet" href="./css/section_1/section_1.min.css">
 </body>
 </html>
