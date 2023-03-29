@@ -20,11 +20,18 @@
   background: none;
 }
 
+#navbarNavAltMarkup > div > a {
+  width: max-content;
+}
+
 body > header > div > div > div.col-5 > nav > button {
   border: none;
 }
 
 @media (max-width: 1000px) {
+  .container-sm {
+    min-width: 100%;
+  }
   .section_1 {
     background: none;
   }
@@ -32,6 +39,7 @@ body > header > div > div > div.col-5 > nav > button {
     flex-direction: column !important;
   }
   .linesMD {
+    
     background-image: url("/imges/section_1/Chart lines.svg");
     background-position: right;
     background-repeat: no-repeat;
@@ -39,7 +47,8 @@ body > header > div > div > div.col-5 > nav > button {
     min-height: 450px;
   }
   .btnReg {
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
   }
   img[class=lines] {
     padding: 0 !important;
