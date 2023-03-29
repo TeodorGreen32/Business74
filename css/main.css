@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed';
 }
 .container{
     margin: 0 auto;
@@ -9,4 +10,7 @@
 }
 body{
     background-color: #272727;
+}
+.main-theme{
+    color: #FF6207;
 }
