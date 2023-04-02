@@ -1,0 +1,30 @@
+.photoMainTheme{
+    background-color: #FF6207;
+    min-width: 260px;
+    width: max-content;
+    min-height: 300px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: end;
+}
+.wrapperSpeaker{
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+a{
+    max-width: max-content;
+    max-height: max-content;
+}
+@media (max-width:580px) {
+    .wrapperSpeaker{
+        flex-direction: row;
+        max-width: 100%;
+    }
+}
