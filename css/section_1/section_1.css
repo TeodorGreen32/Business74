@@ -4,7 +4,7 @@
 }
 
 .section_1 {
-  background-image: url("/imges/section_1/Chart lines.svg");
+  background-image: url("./imges/section_1/Chart_lines.svg");
   background-repeat: no-repeat;
   background-position: center right;
   padding-top: 50px;
@@ -39,8 +39,8 @@ body > header > div > div > div.col-5 > nav > button {
     flex-direction: column !important;
   }
   .linesMD {
-    
-    background-image: url("/imges/section_1/Chart lines.svg");
+    width: 200%;
+    background-image: url("./imges/section_1/Chart_lines.svg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 800px;
