@@ -22,9 +22,13 @@ a{
     max-width: max-content;
     max-height: max-content;
 }
-@media (max-width:580px) {
+/* @media (max-width:580px) {
     .wrapperSpeaker{
         flex-direction: row;
         max-width: 100%;
     }
+    
 }
+@media (max-width:440px) {
+    
+} */
