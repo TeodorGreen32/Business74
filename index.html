@@ -21,28 +21,50 @@
                 <img src="./imges/header/logo.svg" alt="">
               </div>
               <div class="col-5">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-transporent>
-                  <div class="container-fluid">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">О мероприятие</a>
-                        <a class="nav-link" href="#">Спикеры</a>
-                        <a class="nav-link" href="#">Программа</a>
-                        <a class="nav-link" href="#">Регестрация</a>
-                        
-                      </div>
-                    </div>
-                   
-                  </div>
+                <nav class="navbar">
+                  <ul>
+                    <li>
+                      <a href="">О мероприятие</a>
+                    </li>
+                    <li>
+                      <a href="">Спикеры</a>
+                    </li>
+                    <li>
+                      <a href="">Программа</a>
+                    </li>
+                    <li>
+                      <a href="">Регистрация</a>
+                    </li>
+                  </ul>
+                  <div style="display: none;" onclick="document.querySelector('.nav-slidebar').classList.add('nav-slidebar-open'); scrollLock.disablePageScroll(); document.querySelector('.blockDisplay').style.display = 'block';" class="humburger-button"><img src="imges/header/burger.svg" alt=""></div>
                 </nav>
+                
               </div>
             </div>
          </div>
       </header> 
+      <div style="display: none;"  class="blockDisplay"></div>
+      <div class="nav-slidebar nav-slidebar-closed">    
+        <div class="d-flex flex-column">
+          <button onclick="document.querySelector('.nav-slidebar').classList.remove('nav-slidebar-open'); scrollLock.enablePageScroll();document.querySelector('.blockDisplay').style.display = 'none';" >_</button>
+          <nav class="navbar">
+            <ul class="d-flex flex-column my-5 gap-3">
+            <li>
+              <a class="fs-3" href="">О мероприятие</a>
+            </li>
+            <li>
+              <a class="fs-3" href="">Спикеры</a>
+            </li>
+            <li>
+              <a class="fs-3" href="">Программа</a>
+            </li>
+            <li>
+              <a class="fs-3" href="">Регистрация</a>
+            </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       
 
       
@@ -107,8 +129,8 @@
             <h2 class="main-theme mb-5">Спикеры</h2>
 
             <div class="row">
-              <div data-aos="fade-down" class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+              <div data-aos="fade-up" class="col-lg-3 col-sm-6 col-xs-12 my-3">
+                <div class="wrapperSpeaker align-items-center d-flex flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/1.png" alt="">
                   </div>
@@ -119,7 +141,7 @@
                 </div>
               </div>
               <div data-aos="fade-up" class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+                <div class="wrapperSpeaker align-items-center d-flex flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/2.png" alt="">
                   </div>
@@ -129,10 +151,10 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="fade-down"  class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+              <div data-aos="fade-up"  class="col-lg-3 col-sm-6 col-xs-12 my-3">
+                <div class="wrapperSpeaker align-items-center d-flex flex-sm-column flex-row">
                   <div class="photoMainTheme">
-                    <img src="./imges/section_3/3.png" alt="">
+                    <img class="img-fluid" src="./imges/section_3/3.png" alt="">
                   </div>
                   <div class="d-flex-row mx-3">
                     <h3>Сергей Иванов</h3>
@@ -141,7 +163,7 @@
                 </div>
               </div>
               <div data-aos="fade-up" class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+                <div class="wrapperSpeaker align-items-center d-flex flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/4.png" alt="">
                   </div>
@@ -153,8 +175,8 @@
               </div>
             </div>
             <div class="row">
-              <div data-aos="fade-down"  class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+              <div data-aos="fade-up"  class="col-lg-3 col-sm-6 col-xs-12 my-3">
+                <div class="wrapperSpeaker align-items-center d-flex flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/5.png" alt="">
                   </div>
@@ -165,7 +187,7 @@
                 </div>
               </div>
               <div data-aos="fade-up"  class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+                <div class="wrapperSpeaker d-flex  align-items-center flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/6.png" alt="">
                   </div>
@@ -175,8 +197,8 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="fade-down" class="col-lg-3 col-sm-6 col-xs-12 my-3">
-                <div class="wrapperSpeaker flex-sm-column flex-row">
+              <div data-aos="fade-up" class="col-lg-3 col-sm-6 col-xs-12 my-3">
+                <div class="wrapperSpeaker d-flex align-items-center flex-sm-column flex-row">
                   <div class="photoMainTheme">
                     <img src="./imges/section_3/7.png" alt="">
                   </div>
@@ -412,6 +434,11 @@
 <script>
   AOS.init();
 </script>
+<!--Scroll lock-->
+<script src="
+https://cdn.jsdelivr.net/npm/scroll-lock@2.1.5/dist/scroll-lock.min.js"></script>
+
+
 <!-- Connect your css/js files -->
 <link rel="stylesheet" href="./css/header/header.css">
 <link rel="stylesheet" href="./css/main.css">
@@ -420,5 +447,6 @@
 <link rel="stylesheet" href="./css/section_2/section_2.css">
 <link rel="stylesheet" href="./css/section_3/section_3.css">
 <link rel="stylesheet" href="./css/section_4/section_4.css">
+<script src="app/header/humburger.js" ></script>
 </body>
 </html>

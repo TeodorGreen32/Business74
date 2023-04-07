@@ -1,16 +1,19 @@
 .photoMainTheme{
     background-color: #FF6207;
-    min-width: 260px;
+    min-width: 140px;
+    height: max-content;
+    /* min-width: 260px;
     width: max-content;
     min-height: 300px;
     display: flex;
     align-self: flex-end;
-    justify-content: end;
+    justify-content: end; */
+}
+.photoMainTheme img{
+    width: 100%;
 }
 .wrapperSpeaker{
     max-width: 260px;
-    display: flex;
-    flex-direction: column;
 }
 
 .col{
