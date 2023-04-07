@@ -119,17 +119,11 @@ header ul li{
     transform: translateX(1500px);
 }
 .nav-slidebar-open{
-    animation: nav-open 0.55s ease-out forwards;
+    animation: nav-open 0.25s ease-out forwards;
 }
 @keyframes nav-open {
     0%{
         transform: translateX(1500px);
-    }
-    25%{
-        transform: translateX(10px);
-    }
-    50%{
-        transform: translateX(-5px);
     }
     100%{
         transform: translateX(0px);
