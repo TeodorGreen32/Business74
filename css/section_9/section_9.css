@@ -1,0 +1,71 @@
+.section_9{
+    padding-top: 230px;
+    padding-bottom: 121px;
+}
+
+.section_9 h3{
+    padding-bottom: 44px;
+}
+
+.section_9_one{
+    display: flex;
+    align-items: center;
+}
+
+.section_9_two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section_9_elements{
+    display: flex;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.element input{
+    all: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.element label{
+    color: #818181;
+}
+.section_9_checkbox{
+    display: flex;
+    align-items: baseline;
+}
+.section_9 .btnReg{
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: white !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    background-color: none !important;
+}
+.section_9 .btnReg:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+.section_9 .btnRegDisabled{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+.section_9 .btnRegDisabled:hover{
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    color: black;
+    cursor: no-drop;
+    
+}

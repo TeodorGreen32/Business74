@@ -1,0 +1,20 @@
+.section_6 img{
+    min-width: 551.18px;
+}
+.section_6 h3{
+padding-bottom: 29px;
+}
+
+.section_6 li{
+
+    padding-bottom: 26px;
+}
+
+.section_6_ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_6{
+    padding-bottom: 230px;
+}

@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed';
 }
-.container{
-    margin: 0 auto;
-    max-width: 1600px;
-}
 body{
     background-color: #272727;
 }
