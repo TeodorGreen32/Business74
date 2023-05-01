@@ -9,3 +9,9 @@
 .section_7{
     padding-bottom: 244px;
 }
+
+@media (max-width:770px) {
+    .section_7 img{
+        max-width: 120px;
+    }
+}

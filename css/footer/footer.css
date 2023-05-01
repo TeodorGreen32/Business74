@@ -24,5 +24,9 @@ footer{
 }
 
 .footer_sect_txt a{
-    all: unset;
+    text-decoration: none;
+    color: #FF6207;
+}
+.footer_sect_txt a:hover{
+    color: #FF6207;
 }

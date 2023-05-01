@@ -3,13 +3,26 @@
 }
 
 .section_8_spisok_element{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 40px;
     padding-bottom: 19px;
 }
+.element8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .section_8 h3{
     padding-bottom: 57px;
+}
+
+.section_8 button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 15px;
+}
+.answer{
+    display: flex;
 }
