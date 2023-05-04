@@ -28,5 +28,5 @@ footer{
     color: #FF6207;
 }
 .footer_sect_txt a:hover{
-    color: #FF6207;
+    color: #FF6207 !important;
 }
