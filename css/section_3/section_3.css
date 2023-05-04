@@ -16,7 +16,7 @@
     max-width: 260px;
 }
 
-.col{
+.section3 .col{
     display: flex;
     justify-content: center;
     align-items: start;

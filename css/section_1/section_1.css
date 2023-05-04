@@ -40,8 +40,8 @@ body > header > div > div > div.col-5 > nav > button {
     flex-direction: column !important;
   }
   .linesMD {
-    width: 200%;
-    background-image: url("././../imges/section_1/Chart_lines.svg");
+    /* width: 200%; */
+    background-image: url("./../../imges/section_1/Chart_lines.svg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 800px;

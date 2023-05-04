@@ -16,6 +16,7 @@ footer{
 }
 
 .footer_sect_txt{
+
     display: flex;
     justify-content: space-between;
 }
@@ -24,6 +25,7 @@ footer{
 }
 
 .footer_sect_txt a{
+    font-size: 5px;
     text-decoration: none;
     color: #FF6207;
 }

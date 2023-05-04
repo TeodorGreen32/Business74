@@ -21,3 +21,11 @@ padding-bottom: 29px;
 .section_6_ul li:hover{
     color: #FF6207;
 }
+.section_6 .img-background{
+    width: 100%;
+    height: 500px;
+    background:url('./img/Group_156.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
