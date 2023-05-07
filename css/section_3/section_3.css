@@ -1,6 +1,6 @@
 .photoMainTheme{
     background-color: #FF6207;
-    min-width: 140px;
+    min-width: 180px;
     height: max-content;
     /* min-width: 260px;
     width: max-content;
@@ -14,7 +14,15 @@
 }
 .wrapperSpeaker{
     max-width: 260px;
+    gap: 15px;
+    cursor: pointer;
 }
+.wrapperSpeaker:hover h3{
+    
+    color: #FF6207 ;
+    transition: color 0.25s ease-in-out;
+}
+
 
 .section3 .col{
     display: flex;
@@ -25,13 +33,47 @@ a{
     max-width: max-content;
     max-height: max-content;
 }
-/* @media (max-width:580px) {
-    .wrapperSpeaker{
-        flex-direction: row;
-        max-width: 100%;
-    }
-    
+.imgBackGround{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
 }
-@media (max-width:440px) {
-    
+.imgBackGround[name="1"]{
+    background-image: url('../../imges/section_3/1.png');
+}
+.imgBackGround[name="2"]{
+    background-image: url('../../imges/section_3/2.png');
+}
+.imgBackGround[name="3"]{
+    background-image: url('../../imges/section_3/3.png');
+}
+.imgBackGround[name="4"]{
+    background-image: url('../../imges/section_3/4.png');
+}
+.imgBackGround[name="5"]{
+    background-image: url('../../imges/section_3/5.png');
+}
+.imgBackGround[name="6"]{
+    background-image: url('../../imges/section_3/6.png');
+}
+.imgBackGround[name="7"]{
+    background-image: url('../../imges/section_3/7.png');
+}
+/* @media(max-width:550px){
+    .wrapperSpeaker{
+        min-width: max-content;
+    }
 } */
+@media (max-width:440px) {
+    .imgBackGround{
+        min-height: 160px;
+    }
+    .photoMainTheme{
+        min-width: 140px;
+    }
+    .wrapperSpeaker{
+        gap: 30px;
+    }
+
+} 

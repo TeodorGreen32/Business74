@@ -5,11 +5,11 @@
 }
 
 .section_1 {
-  background-image: url("/../../imges/section_1/Chart_lines.svg");
+  background-image: url("../../imges/section_1/Chart_lines.svg");
   background-repeat: no-repeat;
   background-position: center right;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 
 .section1-flex {
@@ -40,8 +40,7 @@ body > header > div > div > div.col-5 > nav > button {
     flex-direction: column !important;
   }
   .linesMD {
-    /* width: 200%; */
-    background-image: url("./../../imges/section_1/Chart_lines.svg");
+    background-image: url("../../imges/section_1/Chart_lines.svg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 800px;
@@ -60,4 +59,8 @@ body > header > div > div > div.col-5 > nav > button {
   .h1 {
     font-size: calc(1.625rem + 4.5vw);
   }
+}
+
+address {
+  margin-bottom: 0;
 }
