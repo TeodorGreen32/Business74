@@ -10,12 +10,11 @@
 }
 .element8{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-.section_8 h3{
+/* .section_8 h3{
     padding-bottom: 57px;
-}
+} */
 
 .section_8 button{
     background-color: transparent;

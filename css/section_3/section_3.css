@@ -34,10 +34,10 @@ a{
     max-height: max-content;
 }
 .imgBackGround{
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 340px;
 }
 .imgBackGround[name="1"]{
     background-image: url('../../imges/section_3/1.png');
@@ -67,7 +67,7 @@ a{
 } */
 @media (max-width:440px) {
     .imgBackGround{
-        min-height: 160px;
+        min-height: 180px;
     }
     .photoMainTheme{
         min-width: 140px;

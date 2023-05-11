@@ -86,3 +86,9 @@
     background-position: center;
     background-size: contain;
 }
+@media (max-width:770px) {
+    .section_9 .img-background2{
+        height: 300px;
+        margin-top: 30px;
+    }
+}

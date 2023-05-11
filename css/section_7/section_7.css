@@ -1,17 +1,36 @@
-.section_7 h3{
+/* .section_7 h3{
     padding-bottom: 69px;
-}
+} */
 
 .section_7 img{
-    max-width: 200px;
+    width: 100%;
+    /* max-width: 200px; */
 }
 
-.section_7{
+/* .section_7{
     padding-bottom: 244px;
-}
+} */
+/* .section_7_mg{
+    display: flex;
+} */
 
 @media (max-width:770px) {
     .section_7 img{
         max-width: 120px;
     }
+}
+.backgroundImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+}
+.backgroundImg[index="1"]{
+    background-image: url("./img/partner-1\ 1.png");
+}
+.backgroundImg[index="2"]{
+    background-image: url("./img/partner-2\ 1.png");
+}
+.backgroundImg[index="3"]{
+    background-image: url("./img/partner-11\ 1.png");
 }
