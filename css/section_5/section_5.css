@@ -39,6 +39,9 @@
     border: #ffffff solid 2px !important;
 }
 @media (max-width:560px) {
+    .section_5_btn{
+        display: block;
+    }
     .section_5 .btnReg{
         margin-top: 10%;
         max-height: 40px;
