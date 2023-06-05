@@ -35,3 +35,9 @@ footer{
 .footer_txt a:hover{
     color: #FF6207 !important;
 }
+.footer_sect_two a:hover{
+    filter:invert();
+}
+footer ul{
+    padding-left: 0 !important;
+}

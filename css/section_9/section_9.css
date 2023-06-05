@@ -35,6 +35,10 @@
     padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.3);
 }
+.element input:focus{
+    color: #FF6207;
+    transition: 0.25s ease;
+}
 .element label{
     color: #818181;
 }
@@ -50,20 +54,20 @@
     background-color: none !important;
 }
 .section_9 .btnReg:hover{
-    border: 1px solid rgb(255, 255, 255) !important;
-    background-color: white !important;
-    color: black !important;
+    border: 1px solid #ffffff  !important;
+    background-color: #FF6207 !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .section_9 .btnRegDisabled{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
     border: 1px solid rgb(255, 255, 255) !important;
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
     box-shadow: none !important;
     text-shadow: none !important;
 }
 .section_9 .btnRegDisabled:hover{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgba(255, 0, 0, 0.123) !important;
     box-shadow: none !important;
     color: black;
     cursor: no-drop;
@@ -86,9 +90,62 @@
     background-position: center;
     background-size: contain;
 }
+.section_9 .main-form-element{
+    border: 2px solid #818181;
+    border-radius: 16px;
+    padding: 3.5em 2.5em;
+    position: relative;
+}
+.section_9 .main-form-element::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    top: 25%;
+    right: -3px;
+    height: 50%;
+    background-color: #272727;
+}
+.section_9 .main-form-element::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    top: 25%;
+    left: -3px;
+    height: 50%;
+    background-color: #272727;
+}
+.section_9 .main-form::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: -3px;
+    left: 25%;
+    width: 50%;
+    background-color: #272727;
+}
+.section_9 .main-form::before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 25%;
+    height: 3px;
+    width: 50%;
+    background-color: #272727;
+}
+.section_9 .main-form-element{
+    width: 90%;
+}
 @media (max-width:770px) {
+    .section_9{
+        padding-top: 1em;
+    }
+    .section_9 .main-form, .section_9 .main-form-element{
+        border: none;
+        margin: 0 auto;
+        width: 100%;
+    }
     .section_9 .img-background2{
-        height: 300px;
+        
         margin-top: 30px;
     }
 }

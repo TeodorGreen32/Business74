@@ -13,20 +13,9 @@ header ul li{
     display: inline;
     
 }
-@media (max-width:1400px) {
-    header ul li{
-        display: none;
-    }
-    header .humburger-button{
-        display: block !important;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: max-content;
-    }
-    header .humburger-button:hover{
-        cursor: pointer;
-    }
+
+header ul li a:hover{
+    color: #FF6207 !important;
 }
 .nav-slidebar{
     background-color: #272727;
@@ -46,21 +35,7 @@ header ul li{
     height: 100%;
     width: 100%;
 }
-@media (max-width:900px) {
-    .nav-slidebar{
-        min-width: 50%;
-    }
-}
-@media (max-width:550px) {
-    .nav-slidebar{
-        min-width: 70%;
-    }
-}
-@media (max-width:340px) {
-    .nav-slidebar{
-        min-width: 90%;
-    }
-}
+
 .nav-slidebar button:hover{
     text-shadow: 0px 0px 10px #FF6207;
     
@@ -127,5 +102,35 @@ header ul li{
     }
     100%{
         transform: translateX(0px);
+    }
+}
+@media (max-width:1400px) {
+    header ul li{
+        display: none;
+    }
+    header .humburger-button{
+        display: block !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: max-content;
+    }
+    header .humburger-button:hover{
+        cursor: pointer;
+    }
+}
+@media (max-width:900px) {
+    .nav-slidebar{
+        min-width: 50%;
+    }
+}
+@media (max-width:550px) {
+    .nav-slidebar{
+        min-width: 70%;
+    }
+}
+@media (max-width:340px) {
+    .nav-slidebar{
+        min-width: 90%;
     }
 }
