@@ -143,6 +143,8 @@
         border: none;
         margin: 0 auto;
         width: 100%;
+        padding: 0;
+        padding-top: 1em;
     }
     .section_9 .img-background2{
         
